@@ -14,50 +14,75 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">	
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
-<?php do_action( 'wp_body_open' ); ?>
-<div class="site" id="page">
+	<?php do_action( 'wp_body_open' ); ?>
+	<div class="site" id="page">
 
-	<!-- ******************* The Navbar Area ******************* -->
-	<div id="wrapper-navbar">
+		<!-- ******************* The Navbar Area ******************* -->
+		<div id="wrapper-navbar">
 
-	<div class="top-header">
-		<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-5">
-				<a href="/">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo">
-				</a>
-			</div>
+			<div class="top-header">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-5 col-md-6">
+							<div class="mobile-header-logo">
+								<a href="/">
+									<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logo">
+								</a>
+							</div>
+						</div>
 
-			<div class="col-lg-7">
-				<div class="top-header-contact">
-					<a href="tel:1800-927-831"><i class="fa fa-phone" aria-hidden="true"></i> 1800 927 831</a>
-					<a href="mailto:info@westcoastwaste.com.au"><i class="fa fa-envelope" aria-hidden="true"></i></i> info@westcoastwaste.com.au</a>
+						<div class="col-lg-7 col-md-6">
+							<div class="top-header-contact">
+								<a href="tel:1800-927-831"><i class="fa fa-phone" aria-hidden="true"></i> 1800 927
+									831</a>
+								<a href="mailto:info@westcoastwaste.com.au" class="top-header-contact-email"><i
+										class="fa fa-envelope" aria-hidden="true"></i></i>
+									info@westcoastwaste.com.au</a>
+								<div class="mobile-menu-dropdown">
+									<button class="navbar-toggler" type="button" data-toggle="collapse"
+										data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+										aria-expanded="false"
+										aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+										<span>Menu</span> <i class="fa fa-bars" aria-hidden="true"></i>
+								</div>
+							</div>
+
+						</div>
+					</div>
 				</div>
 			</div>
-	</div></div>
-	</div>
 
-		<nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-primary" aria-labelledby="main-nav-label">
+			<nav id="main-nav" class="navbar navbar-expand-xl navbar-dark" aria-labelledby="main-nav-label">
 
-			<div class="container">
+				<div class="container">
 
-				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-					<span class="navbar-toggler-icon"></span>
-				</button> -->
+					<div class="search-input-holder">
+						<div class="title">Quote:</div>
+						<input type="text" placeholder="Type your suburb here">
+					</div>
 
-				<!-- The WordPress Menu goes here -->
-				<?php
+					<div class="mobile-menu-dropdown">
+						<button class="navbar-toggler" type="button" data-toggle="collapse"
+							data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+							aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+							<span>Menu</span> <i class="fa fa-bars" aria-hidden="true"></i>
+						</button>
+					</div>
+
+					<!-- The WordPress Menu goes here -->
+					<?php
 				wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
@@ -72,8 +97,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 				);
 				?>
 
-			</div><!-- .container -->
+				</div><!-- .container -->
 
-		</nav><!-- .site-navigation -->
+			</nav><!-- .site-navigation -->
 
-	</div><!-- #wrapper-navbar end -->
+		</div><!-- #wrapper-navbar end -->
