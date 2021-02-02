@@ -93,52 +93,61 @@ if ( is_front_page() ) {
 			</div>
 		</div>
 	</div>
-</div>
 
-<div class="home-products-holder">
-	<div class="container">
-		<h2><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Select the right skip bin for your project</h2>
-		<div class="home-products">
-			<div class="home-product">
-				
-				<div class="row">
-					<div class="col-lg-4">
-						<img src="<?php echo get_template_directory_uri(); ?>/img/6m3-Skip-Bin.png" alt="product-placeholder" width="100%">
-					</div>
-					<div class="col-lg-4">
-						<div class="title">4 Cubic Metre Skip</div>
-						<ul>
-							<li>Garden & Household clean-up</li>
-							<li>Heavy Loads (dirt, concrete, bricks or rubble)</li>
-							<li>Ideal for narrow alleys or small streets</li>
-							<li>Building Sites</li>
-						</ul>
-						
-					</div>
-					<div class="col-lg-4">
-						<div class="approx-circles">
-							<div class="circle">
-								<div class="title">Approx x4 trailers</div>
-								<div class="icon">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/home-trailer.png" alt="">
+	<div class="home-products-holder">
+		<div class="container">
+			<h2><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Select the right skip bin for your project</h2>
+			<div class="home-products">
+				<div class="home-product">
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/6m3-Skip-Bin.png" alt="product-placeholder" width="100%">
+						</div>
+						<div class="col-lg-4">
+							<div class="title">4 Cubic Metre Skip</div>
+							<ul>
+								<li>Garden & Household clean-up</li>
+								<li>Heavy Loads (dirt, concrete, bricks or rubble)</li>
+								<li>Ideal for narrow alleys or small streets</li>
+								<li>Building Sites</li>
+							</ul>
+							
+						</div>
+						<div class="col-lg-4">
+							<div class="approx-circles">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="circle">
+											<div class="title">Approx x4 trailers</div>
+											<div class="icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/home-trailer.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 align-middle">	
+										<div class="circle ">
+											<div class="title">Approx x4 trailers</div>
+											<div class="icon">
+												<img src="<?php echo get_template_directory_uri(); ?>/img/home-product.png" alt="">
+											</div>
+										</div>
+									</div>
 								</div>
-							</div>
-							<div class="circle">
-								<div class="title">Approx x4 trailers</div>
-								<div class="icon">
-									<img src="<?php echo get_template_directory_uri(); ?>/img/home-product.png" alt="">
-								</div>
+								
 							</div>
 						</div>
+						<div class="col-lg-4">
+						</div>
 					</div>
-					<div class="col-lg-4">
-					</div>
-				</div>
 
-				<div class="abs-holder-button">Get a quote for this skip bin</div>
+					
+
+					<div class="abs-holder-button">Get a quote for this skip bin</div>
+				</div>
 			</div>
 		</div>
 	</div>
+
 </div>
 
 
