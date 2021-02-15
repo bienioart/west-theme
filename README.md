@@ -1,4 +1,9 @@
-Motyw do wordress na podstawie pliku graficznego oparty na Uderstrap.
+Motyw do wordress na podstawie pliku graficznego oparty na Uderstrap. 
+
+
+
+
+
 
 
 
