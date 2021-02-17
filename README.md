@@ -1,6 +1,8 @@
 Motyw do wordress na podstawie pliku graficznego oparty na Uderstrap. 
 
-
+![alt text](https://github.com/bienioart/west-theme/blob/master/screencapture-homepage-template.png?raw=true)
+![alt text](https://github.com/bienioart/west-theme/blob/master/screencapture-category-blog.png?raw=true)
+![alt text](https://github.com/bienioart/west-theme/blob/master/screencapture-contact-page.png?raw=true)
 
 
 
